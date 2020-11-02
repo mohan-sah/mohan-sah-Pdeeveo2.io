@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial sacle=1.0">
+	<title>single products detail</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans&family=Pacifico&family=Poppins:wght@300;400;700;800&family=Satisfy&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-------------------navbar-------------->
+	
+		<div class="container" >
+			<div class="navbar">
+			<div class="logo">
+				<img src="logo_outline.png" width="150px" alt="">
+			</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="">HOME</a></li>
+					<li><a href="">PROUDUCTS</a></li>
+					<li><a href="">ABOUT US</a></li>
+					<li><a href="">CONTACT US</a></li>
+					<li><a href="">SIGN IN</a></li>
+				</ul>
+			</nav>
+			<img class="cartimg" src="FAVPNG_logo-handbag-shopping-bag_cUUZKbpy.png" alt="" width="60px" height="50px">
+			<img class="menu-icon" src="images/menu.png" alt="" onclick="menutoggle()">	
+		</div>
+	</div>	
+<!------------------cart Deatails-------->
+	<div class="small-container cart-page" >
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td> 
+                    <div class="cart-info">
+                        <img src="images/buy-1.jpg" alt="">
+                        <div>
+                            <p>Carbon charcoal Soap yeaaa</p>
+                            <small>Price:&#8377;200</small>
+                            <br>
+                            <a href="">REMOVE</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="numbers" value="1"></td>
+                <td>&#8377;200</td>
+            </tr>
+            <tr>
+                <td> 
+                    <div class="cart-info">
+                        <img src="images/buy-2.jpg" alt="">
+                        <div>
+                            <p>Aqua Rainforest Scrub</p>
+                            <small>Price:&#8377;500</small>
+                            <br>
+                            <a href="">REMOVE</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="numbers" value="1"></td>
+                <td>&#8377;500</td>
+            </tr>
+            <tr>
+                <td> 
+                    <div class="cart-info">
+                        <img src="images/buy-3.jpg" alt="">
+                        <div>
+                            <p>Black dibya lip balms</p>
+                            <small>Price:&#8377;400</small>
+                            <br>
+                            <a href="">REMOVE</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="numbers" value="1"></td>
+                <td>&#8377;400</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>&#8377;1100</td>
+                </tr>
+                <tr>
+                    <td>Gst</td>
+                    <td>&#8377;10</td>
+                </tr>
+                <tr>
+                    <td>Total         &#10004;</td>
+                    <td>&#8377;1200           &#10004;</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+	<!-------------------footer----------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>App : Comming Soon</h3>
+					<p>soon we will be launching a personalised app just for our valuable friends</p>
+					<div class="app-logo">
+						<img src="images/play-store.png" alt="">
+						<img src="images/app-store.png" alt="">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="logo_outline.png" alt="">
+					<p>Our purpose is to be sustainable and provide benifits <br>of nature to our Customers</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful LInks</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow US</h3>
+					<ul>
+						<li>InstaGram</li>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>YouTube</li>
+					</ul>
+				</div>
+			</div>
+			<hr><p class="copyright">CopyRight 2020- DEEVEOBEAUTY</p>
+		</div>
+	</div>
+	<!---------js for toggle menu------->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight="0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight=="0px")
+				{MenuItems.style.maxHeight="200px"}
+			else{
+				MenuItems.style.maxHeight="0px"
+			}
+		}
+	</script>
+
+	
+
+
+
+</body>
+</html>
+
+
