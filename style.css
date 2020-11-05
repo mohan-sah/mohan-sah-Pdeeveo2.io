@@ -280,6 +280,7 @@ ul{
 	margin-left: 20px;
 	display:none;
 }
+
 /*--------------media query for menu , i.e to remove menu option when in mobile mode------------------*/
 @media only screen and (max-width : 800px){
 	nav ul{
